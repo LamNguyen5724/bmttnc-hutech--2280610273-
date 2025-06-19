@@ -1,10 +1,11 @@
-print("Nhập các dòng văn bản (Nhập 'done' để kết thúc):")
-lines = []
+# Nhập thông tin người dùng
+print("Nhập thông tin người dùng (Nhập 'done' để kết thúc):")
+line =  []
 while True:
-    line = input()
-    if line == 'done':
+    user_input = input()
+    if user_input.lower() == 'done':
         break
-    lines.append(line)
-print("\nCác dòng văn bản đã nhập sau khi chuyển thành chữ in hoa:")
-for line in lines:
-    print(line.upper())
+    line.append(user_input)
+    #Chuyển các dòng thành chữ in hoa và in ra màn hình
+for i in line:
+    print(i.upper())

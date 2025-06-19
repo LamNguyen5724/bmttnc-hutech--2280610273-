@@ -1,6 +1,5 @@
-so = int(input("Nhập một số nguyên: "))
+so = int(input("Nhập 1 số nguyên: "))
 if so % 2 == 0:
-    print("Số", so, "là số chẵn.")
+    print("Số ",so," là số chẵn")
 else:
-    print(so, "không phải là số chẵn.")
-    
+    print("Số ",so," không phải là số chẵn")
